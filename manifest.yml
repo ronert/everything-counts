@@ -1,0 +1,9 @@
+---
+applications:
+- name: everything-counts
+  memory: 1024M
+  instances: 1
+  buildpack: https://github.com/getpelican/heroku-buildpack-pelican.git
+  timeout: 180
+  env:
+    PELICAN_SITEURL: "http://everything-counts.cfapps.io"
