@@ -98,6 +98,6 @@ output <- parLapply(cluster, some_input, some_function)
 stopCluster(cluster)
 #+end_src
 
-Now you can watch 10 machines working for you. Like!
-
-{% img center /images/starcluster.png %}
+#+CAPTION: Now you can watch 10 machines working for you. Like!
+#+ATTR_HTML: :alt Starcluster in action
+[[images/starcluster.png]]
