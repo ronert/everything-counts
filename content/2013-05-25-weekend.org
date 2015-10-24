@@ -1,0 +1,33 @@
+#+TITLE: Weekend Linkfest 25.5.2013
+#+DATE: 2013-05-25
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://cacm.acm.org/news/164601-deep-learning-comes-of-age/fulltext][Deep Learning Comes of Age]]
+- [[http://www.wired.com/wiredenterprise/2013/05/hinton/][Computer Brain Escapes Google's X Lab to Supercharge Search]]
+- [[http://techtalks.tv/nyu/nyu-course-on-large-scale-machine-learning/][NYU Course on Big Data, Large Scale Machine Learning]]
+- [[https://normaldeviate.wordpress.com/2013/05/18/steins-paradox/][Stein’s Paradox]]
+- [[http://nuit-blanche.blogspot.ca/2012/05/part-4-from-data-to-knowledge-machine.html?m%3D1][Nuit Blanche: Part 4: From Data to Knowledge: Machine-Learning with Real-time and Streaming Applications]]
+- [[http://appliedpredictivemodeling.com/blog/2013/5/20/one-statisticians-view-of-big-data][One Statistician’s View of Big Data]]
+- [[http://datascience101.wordpress.com/2013/05/22/probabilistic-programming-and-bayesian-methods-for-hackers-online-book/][Probabilistic Programming and Bayesian Methods for Hackers Online Book]]
+- [[http://www.maths.uq.edu.au/~kroese/mccourse.pdf][Monte Carlo Methods]]
+- [[https://hips.seas.harvard.edu/blog/2013/05/20/testing-mcmc-code-part-1-unit-tests/][Testing MCMC code, part 1: unit tests – Building Intelligent Probabilistic Systems]]
+- [[http://www.austinrochford.com/posts/2013-05-17-bayesian-hypothesis-testing-with-pymc.html][Austin Rochford - Bayesian Hypothesis Testing with PyMC]]
+* R Package of the Week
+- [[http://caret.r-forge.r-project.org/][The caret Package]]
+* Paper of the Week
+- [[http://projecteuclid.org/DPubS/Repository/1.0/Disseminate?handle%3Deuclid.ba/1369407550&view%3Dbody&content-type%3Dpdfview_1][Bayesian Nonparametric Inference —Why and How]]
+* Programming
+- [[http://blog.wolfram.com/2013/05/22/why-would-a-mathematica-user-care-about-r/][Why Would a Mathematica User Care about R? « Wolfram Blog]]
+- [[http://www.burns-stat.com/an-r-debugging-example/][An R debugging example - Burns Statistics]]
+- [[http://dahtah.wordpress.com/2013/05/17/finding-patterns-in-time-series-using-regular-expressions/][Finding patterns in time series using regular expressions]]
+- [[http://pychecker.sourceforge.net/][PyChecker: a python source code checking tool]]
+- [[http://continuum.io/blog/numba_performance][Accelerating Python Libraries with Numba (Part 2)]]
+- [[http://blog.jorgenschaefer.de/2013/04/elpy-10-released.html][Jorgen’s Weblog: Elpy 1.0 Released]]
+- [[http://altons.github.io/git/2013/05/23/notes-about-git/][Notes about GIT]]
+- [[http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html][Functors, Applicatives, And Monads In Pictures]]
+- [[http://nltk-trainer.readthedocs.org/en/latest/][NLTK-Trainer’s]]
+- [[http://datascience101.wordpress.com/2013/05/16/confused-on-hadoop/][Confused on Hadoop? This link will help]]
+* Elsewhere
+- [[http://blog.evernote.com/blog/2013/05/23/evernote-reminders-are-here-on-mac-ios-and-web-2/][Evernote Blog | Evernote Reminders Are Here on Mac, iOS and Web]]
+- [[http://www.economist.com/news/science-and-technology/21578027-first-real-world-contests-between-quantum-computers-and-standard-ones-faster][Quantum computing: Faster, slower—or both at once? | The Economist]]
+- [[http://www.theonion.com/articles/friend-who-sent-link-to-8minute-youtube-video-must,32442/][Friend Who Sent Link To 8-Minute YouTube Video Must Be Fucking Delusional]]

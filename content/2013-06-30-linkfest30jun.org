@@ -1,0 +1,34 @@
+#+TITLE: Weekend Linkfest 30.6.2013
+#+DATE: 2013-06-30
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://eferm.com/machine-learning-cheat-sheet/][Machine Learning cheat sheet | Home of Emanuel Ferm]]
+- [[http://andrewgelman.com/2013/06/26/dont-buy-bayesian-data-analysis/][Don't buy Bayesian Data Analysis . . . « Statistical Modeling, Causal Inference, and Social Science Statistical Modeling, Causal Inference, and Social Science]]
+- [[https://speakerdeck.com/ogrisel/trends-in-machine-learning-2][Trends in Machine Learning // Speaker Deck]]
+- [[https://medium.com/p/1c0fa2922ba9][MOOCs and Books for Data Analysts — Medium]]
+- [[http://oreilly.com/data/stratareports/analyzing-the-analyzers.csp?utm_content%3Dbuffer5530b&utm_source%3Dbuffer&utm_medium%3Dtwitter&utm_campaign%3DBuffer][Analyzing the Analyzers - O'Reilly Media]]
+- [[%5B%5Bhttp://oreilly.com/data/stratareports/analyzing-the-analyzers.csp?utm_content%253Dbuffer5530b&utm_source%253Dbuffer&utm_medium%253Dtwitter&utm_campaign%253DBuffer%5D%5BAnalyzing%20the%20Analyzers%20-%20O'Reilly%20Media%5D%5D][Estimating posterior distributions in Bayesian Linear Regression - YouTube]]
+- [[http://magazine.amstat.org/blog/2013/06/01/the-asa-and-big-data/][The ASA and Big Data | Amstat News]]
+- [[http://blog.revolutionanalytics.com/2013/02/free-e-book-on-data-science-with-r.html][Free e-book on Data Science with R]]
+- [[http://www.machinedlearnings.com/2013/06/icml-2013-sparse-deep-and-random.html?utm_source%3Dtwitterfeed&utm_medium%3Dtwitter][Machined Learnings: ICML 2013: Sparse, Deep, and Random]]
+* R Package of the Week
+- [[http://imdevsoftware.wordpress.com/2013/06/16/dynamic-plots-in-using-shiny-and-ggplot2/][Dynamic Data Visualizations in the Browser Using Shiny]]
+* Paper of the Week
+- [[http://projecteuclid.org/DPubS?verb%3DDisplay&version%3D1.0&service%3DUI&handle%3Deuclid.aoas/1372338461&page%3Drecord][Rusch , Hofmarcher , Hatzinger , Hornik : Model trees with topic model preprocessing: An approach for data journalism illustrated with the WikiLeaks Afghanistan war logs]]
+* Programming
+- [[http://infolab.stanford.edu/~ullman/focs.html][Aho/Ullman Foundations of Computer Science]]
+- [[http://research.microsoft.com/en-us/um/people/simonpj/papers/ndp/][Simon Peyton Jones: papers]]
+- [[http://latex-community.org/home/news/46-news-latex-distributions/482-texlive-2013][TeX Live 2013 released]]
+- [[http://mloss.org/revision/view/1334/][dlib]]
+- [[http://mloss.org/revision/view/1335/][OpenANN]]
+- [[http://mloss.org/revision/view/1336/][LibBi]]
+- [[http://gigaom.com/2013/06/22/netflix-open-sources-its-hadoop-manager-for-aws/][Netflix open sources its Hadoop manager for AWS — Tech News and Analysis]]
+- [[http://radfordneal.wordpress.com/2013/06/22/announcing-pqr-a-faster-version-of-r/][Announcing pqR: A faster version of R | Radford Neal's blog]]
+- [[http://radfordneal.wordpress.com/2013/06/23/parallel-computation-with-helper-threads-in-pqr/][Parallel computation with helper threads in pqR | Radford Neal's blog]]
+- [[http://radfordneal.wordpress.com/2013/06/24/comparing-the-speed-of-pqr-with-r-2-15-0-and-r-3-0-1/][Comparing the speed of pqR with R-2.15.0 and R-3.0.1 | Radford Neal's blog]]
+- [[http://www.javacodegeeks.com/2013/06/git-configuration-options-you-cant-miss.html][Git configuration options you can't miss | Java Code Geeks]]
+- [[http://www.informit.com/articles/article.aspx?p%3D2088514][A C++ Reading List by John Lakos | | InformIT]]
+
+
+ 
+

@@ -1,0 +1,24 @@
+#+TITLE: %in%
+#+DATE: 2013-07-10
+#+CATEGORY: R
+I just stumbled across a really useful infix function in R: =%in%=. It compares two vectors and returs a logical vector if there is a match or not for its left operand. Let us look at some examples:
+
+#+begin_src r
+  > 1:10 %in% c(1,3,5,9)
+     [1]  TRUE FALSE  TRUE FALSE  TRUE FALSE FALSE FALSE  TRUE FALSE
+#+end_src
+
+$x$ without $y$:
+
+#+begin_src r
+  > "%w/o%" <- function(x, y) x[!x %in% y]
+  > (1:10) %w/o% c(3,7,12)
+    [1]  1  2  4  5  6  8  9 10
+#+end_src
+
+In my particular use-case, I wanted to implement sampling without replacement in a loop, i.e. removing the sampled values of the previous iteration:
+#+begin_src r
+  subsample <- sample(x=observations, size=sample_size)
+  ...
+  observations <- observations[!observations %in% subsample]
+#+end_src

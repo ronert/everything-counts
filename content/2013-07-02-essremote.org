@@ -1,0 +1,5 @@
+#+TITLE: Using ESS-Remote
+#+DATE: 2013-07-02
+#+CATEGORY: Emacs
+If you use R and ssh into other machines a lot, e.g. for doing some big data stuff on ec2, =ess-remote= is a great tool. Just use =M-x ssh= to ssh into the remote machine, then launch R. Now just =M-x ess-remote= and you can use the R process just like a local process! Productivity win. Also see [[http://blog.nguyenvq.com/2010/07/11/using-r-ess-remote-with-screen-in-emacs/][this]]
+if you´re using screen.

@@ -1,0 +1,49 @@
+#+TITLE: Weekend Linkfest 9.8.2013
+#+DATE: 2013-08-09
+#+CATEGORY: Linkfest
+A lot of cool stuff this week!
+* Statistics and Machine Learning
+- [[http://blog.revolutionanalytics.com/2013/08/job-trends-for-statistics-packages.html][Demand for R jobs on the rise, while SAS jobs decline]]
+- [[http://blog.revolutionanalytics.com/2013/08/statisticians-contemplate-their-own-extinction.html][Statisticians: an endangered species?]]
+- [[http://statistical-research.com/data-science-statistics-and-the-domain-expert/?utm_source%3Drss&utm_medium%3Drss&utm_campaign%3Ddata-science-statistics-and-the-domain-expert][Data Scientists and Statisticians: Can’t We All Just Get Along | Statistical Research]]
+- [[http://simplystatistics.org/2013/08/08/data-scientist-is-just-a-sexed-up-word-for-statistician/#comment-993680252][Data scientist is just a sexed up word for statistician]]
+- [[http://www.reddit.com/r/MachineLearning/comments/1joh9v/can_someone_explain_kernel_trick_intuitively/?utm_source%3Dtwitterfeed&utm_medium%3Dtwitter][Can someone explain Kernel Trick intuitively?]]
+- [[http://codealamode.blogspot.ie/2013/08/bootstrap-confidence-interval-methods.html][Code à la Mode: Bootstrap Confidence Interval Methods in R]]
+- [[https://hips.seas.harvard.edu/blog/2013/08/01/icml-highlight-fast-dropout-training/][ICML Highlight: Fast Dropout Training]]
+- [[%5B%5Bhttps://hips.seas.harvard.edu/blog/2013/08/01/icml-highlight-fast-dropout-training/%5D%5BICML%20Highlight:%20Fast%20Dropout%20Training%20%E2%80%93%20Building%20Intelligent%20Probabilistic%20Systems%5D%5D][Designing Machine Learning Algorithms for Hadoopon]]
+- [[http://www.reddit.com/r/MachineLearning/comments/1jeawf/machine_learning_books/?utm_source%3Dtwitterfeed&utm_medium%3Dtwitter][Machine Learning Books]]
+- [[http://nickqizhu.github.io/d3-cookbook/][D3 Cookbook Recipes]]
+- [[http://engineering.linkedin.com/event/video-3-big-data-tech-talks-you-can%25E2%2580%2599t-miss][Video: 3 Big Data Tech Talks You Can’t Miss]]
+- [[http://rpubs.com/jimhester/bigdatabinning][Big Data Binning]]
+- [[https://www.repository.cam.ac.uk/handle/1810/244707][Maximum likelihood parameter estimation in time series models using sequential Monte Carlo]]
+- [[http://compneurobio.wordpress.com/2013/07/30/impressions-from-icml-2013/][Impressions from ICML 2013]]
+- [[http://gallery.rcpp.org/articles/gibbs-sampler/][Gibbs Sampler in C++]]
+- [[http://blog.revolutionanalytics.com/2013/08/expansion-stay-or-move.html][How to choose a new business location with R]]
+- [[http://hernanresnizky.wordpress.com/2013/08/02/dashboards-in-r-with-shiny-and-googlevis/][Dashboards in R with Shiny and GoogleVis]]
+- [[http://timelyportfolio.blogspot.de/2013/08/gridsvganother-glue-for-r-to-svg.html][Timely Portfolio: I Want ggplot2/lattice and d3]]
+- [[http://statblog.net/2013/03/15/my-time-among-the-statisticians/][My Time Among the Statisticians |]]
+- [[http://gael-varoquaux.info/blog/?p%3D169][Scikit-learn 0.14 release: features and benchmarks]]
+- [[http://vudlab.com/#/learn][Visualizing Urban Data IdeaLab]]
+- [[http://webscope.sandbox.yahoo.com/catalog.php][Webscope from Yahoo! Labs]]
+- [[http://radar.oreilly.com/2013/08/podcast-ratings-rankings-and-being-born-lucky.html][Podcast: ratings, rankings, and the advantage of being born lucky - O'Reilly Radar]]
+* R Package of the Week
+- [[http://christophergandrud.github.io/d3Network/][d3Network]]
+* Paper of the Week
+- [[http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/pubs/archive/41159.pdf][Ad Click Prediction: a View from the Trenches]]
+* Programming
+- [[http://julien.danjou.info/blog/2013/guide-python-static-class-astract-methods][The definitive guide on how to use static, class or abstract methods in Python]]
+- [[http://peekaboo-vision.blogspot.de/2013/07/scikit-learn-sprint-and-014-release.html][Peekaboo: Scikit-learn sprint and 0.14 release candidate]]
+- [[http://datascience101.wordpress.com/2013/07/31/introduction-to-apache-mahout-slides/][Introduction to Apache Mahout Slides]]
+- [[http://www.haskellforall.com/][Haskell for all]]
+- [[http://blog.wolfram.com/2013/07/31/mathematica-gets-bigdata-with-hadooplink/][Mathematica gets Big Data with HadoopLink]]
+- [[http://prajitr.github.io/quick-haskell-syntax/][A Quick Tour of Haskell Syntax]]
+- [[http://www.pyregex.com/][PyRegex]]
+- [[http://www.emacstapas.com/][emacs bites]]
+- [[https://dataset.readthedocs.org/en/latest/][dataset: databases for lazy people]]
+- [[http://gettinggeneticsdone.blogspot.de/2013/08/google-developers-r-programming-video.html][R Programming Video Lectures]]
+- [[http://mosh.mit.edu/][Mosh: the mobile shell]]
+- [[http://nbviewer.ipython.org/url/jdj.mit.edu/~stevenj/IJulia%252520Preview.ipynb][IJulia Preview]]
+- [[http://robots.thoughtbot.com/post/2641409235/a-tmux-crash-course#][A Tmux Crash Course]]
+- [[http://ndpsoftware.com/git-cheatsheet.html][Git Cheatsheet]]
+
+

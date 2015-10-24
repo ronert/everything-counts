@@ -1,0 +1,26 @@
+#+TITLE: Weekend Linkfest 6.7.2013
+#+DATE: 2013-07-06
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://robjhyndman.com/hyndsight/aic/][Hyndsight - Facts and fallacies of the AIC]]
+- [[http://www.tandfonline.com/doi/abs/10.1080/10618600.2013.819178#.UdfoyWQ-J7l][Adaptive Markov Chain Monte Carlo for Bayesian Variable Selection]]
+- [[http://www.wired.com/wiredenterprise/2013/06/yoshua-bengio/][Researcher Dreams Up Machines That Learn Without Humans]]
+- [[http://techtalks.tv/talks/drednets/58115/][Drednets]]
+* R Package of the Week
+- [[http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf][ggmap]]
+* Paper of the Week
+- [[http://jmlr.org/papers/volume14/curtin13a/curtin13a.pdf][MLPACK: A Scalable C++ Machine Learning Library]]
+* Programming
+- [[http://fastml.com/processing-large-files-line-by-line/][Processing large files, line by line - FastML]]
+- [[http://www.youtube.com/user/EnthoughtMedia/videos?hl%3Den&client%3Dmv-google&gl%3DDE&nomobile%3D1][SciPy 2013 Videos]]
+- [[http://manishamde.github.io/blog/2013/03/07/pandas-and-python-top-10/][Pandas and Python: Top 10 - Curiosity]]
+- [[http://blog.yhathq.com/posts/sql-for-data-scientists.html][7 handy SQL features for data scientists]]
+- [[http://bigdatauniversity.com/courses/][Big Data University]]
+- [[http://radfordneal.wordpress.com/2013/07/02/fixing-rs-named-problems-in-pqr/][Fixing R’s NAMED problems in pqR | Radford Neal's blog]]
+- [[http://idiap.github.io/bob/][Bob - A framework for signal processing and machine learning]]
+- [[http://www.wilfred.me.uk/blog/2013/06/29/multi-paradigm-adventures/][Adventures in Multi Paradigm Programming]]
+- [[http://journal.r-project.org/archive/2013-1/][Volume 5/1, June 2013. The R Journal]]
+- [[http://www.thehackernotes.com/robbyrussell/oh-my-zsh][Hacker Notes for Oh-my-zsh]]
+- [[http://damontallen.github.io/IPython-quick-ref-sheets/][Ipython-quick-ref-sheets]]
+- [[http://compgeom.cs.uiuc.edu/~jeffe/teaching/algorithms/][Jeff Erickson's Algorithms Course Materials]]
+- [[http://projects.haskell.org/pipermail/haskellmode-emacs/2013-June/000188.html][ANNOUNCE: haskell-mode 13.07]]

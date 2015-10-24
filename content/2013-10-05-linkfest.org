@@ -1,0 +1,28 @@
+#+TITLE: Weekend Linkfest 5.10.2013
+#+DATE: 2013-10-05
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://metamarkets.com/2013/histograms/][The Art of Approximating Distributions: Histograms and Quantiles at Scale]]
+- [[http://nbviewer.ipython.org/20a18d52c539b87de2af?utm_source%3DPython%2BWeekly%2BNewsletter&utm_campaign%3D611942dc15-Python_Weekly_Issue_107_October_3_2013&utm_term%3D0_9e26887fc5-611942dc15-312687577&utm_content%3Dbufferf61d0&utm_medium%3Dtwitter][Building a Recommendation System in Python]]
+- [[http://gregable.com/2007/10/reservoir-sampling.html][Reservoir Sampling - Sampling from a stream of elements]]
+- [[http://had00b.blogspot.de/2013/07/random-subset-in-mapreduce.html][Reservoir Sampling in MapReduce]]
+- [[http://blog.gopivotal.com/p-o-v/3-examples-of-big-data-making-a-big-impact-on-healthcare-this-week?utm_source%3Drss&utm_medium%3Drss&utm_campaign%3D3-examples-of-big-data-making-a-big-impact-on-healthcare-this-week][3 Examples of Big Data Making a Big Impact on Healthcare This Week]]
+- [[http://blog.visual.ly/graph-visualization-101/][Graph Visualization 101]]
+- [[http://engineering.stanford.edu/news/stanford-algorithm-analyzes-sentence-sentiment-advances-machine-learning][Stanford Algorithm Analyzes Sentence Sentiment, Advances Machine Learning]]
+- [[http://projecteuclid.org/DPubS?service%3DUI&version%3D1.0&verb%3DDisplay&handle%3Deuclid.aoas/1380804802][Assessment of mortgage default risk via Bayesian state space models]]
+* R Package of the Week
+- [[https://github.com/hadley/lineprof][lineprof: new profiling package by Hadley Wickham]]
+* Paper of the Week
+- [[http://arxiv.org/abs/1309.7821][Multiclass Bayesian Additive Classification Trees]]
+* Programming
+- [[https://github.com/erikfrey/bashreduce][bashreduce: mapreduce in a bash scriptxs]]
+- [[http://cran.r-project.org/web/views/WebTechnologies.html][New CRAN Task View: Web Technologies and Services]]
+- [[https://www.neckbeardrepublic.com/screencasts/pandas-vincent][Introduction to Pandas and Vincent]]
+- [[https://github.com/piskvorky/gensim][gensim – Python Framework for Topic Modelling]]
+- [[http://radimrehurek.com/2013/10/parallelizing-word2vec-in-python/][Parallelizing word2vec in Python]]
+- [[http://engineering.linkedin.com/datafu/datafus-hourglass-incremental-data-processing-hadoop][DataFu's Hourglass: Incremental Data Processing in Hadoop | LinkedIn Engineering]]
+- [[http://www.postgresqlstudio.org/][PostgreSQL Studio]]
+- [[http://jeremykun.com/2013/09/30/the-universal-properties-of-map-fold-and-filter/][The Universal Properties of Map, Fold, and Filter]]
+- [[https://amplab.cs.berkeley.edu/benchmark/][Big Data Benchmark]]
+
+

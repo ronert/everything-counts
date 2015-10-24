@@ -1,0 +1,26 @@
+#+TITLE: Weekend Linkfest 15.9.2013
+#+DATE: 2013-09-15
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[https://www.dashingd3js.com/blog/erin-shellman-data-scientist-interview][Erin Shellman, Data Scientist at Nordstrom Innovation Lab Interview]]
+- [[http://learnitdaily.com/what-is-a-data-scientist/][WTF does a Data Scientist do all day?]]
+- [[http://datasciencelondon.org/scaling-by-cheating-approximation-sampling-and/][Scaling by Cheating: Approximation, Sampling and Fault-friendliness for Scalable Big Learning]]
+- [[http://mbjoseph.github.io/blog/2013/09/08/metropolis/][Animating the Metropolis algorithm]]
+- [[http://doingbayesiandataanalysis.blogspot.de/2013/09/visualization-of-metropolis-with.html][Visualization of Metropolis with rejected proposals]]
+- [[http://nlp.stanford.edu/pubs/CICLing2011-manning-tagging.pdf][Part-of-Speech Tagging from 97% to 100%: Is It Time for Some Linguistics?]]
+- [[https://www.edx.org/course/caltechx/cs1156x/learning-data/1120][Learning From Data | edX]]
+- [[http://projecteuclid.org/DPubS?verb%3DDisplay&version%3D1.0&service%3DUI&handle%3Deuclid.ba/1378729914&page%3Drecord][On the Prior and Posterior Distributions Used in Graphical Modelling]]
+- [[http://bickson.blogspot.de/2013/09/mlbase-spark-talk.html][MLBase + Spark talk]]
+- [[http://normaldeviate.wordpress.com/2013/09/11/consistency-sparsistency-and-presistency/][Consistency, Sparsistency and Presistency]]
+- [[http://blog.mikiobraun.de/2013/09/data-base-vs-data-science.html][Marginally Interesting: Data Base vs. Data Science]]
+* R Package of the Week
+- [[http://cran.r-project.org/web/packages/stargazer/index.html][stargazer]]
+* Paper of the Week
+- [[http://reasoning.cs.ucla.edu/fetch.php?id%3D104&type%3Dpdf][What are Bayesian networks and why are their applications growing across all fields?]]
+* Programming
+- [[http://www.bioinformaticszen.com/post/decomplected-workflows-makefiles/][Decomplected workflows: Makefiles · Bioinformatics Zen]]
+- [[http://www.amazon.com/dp/B00F2MPD9O/][Dynamic Documents with R and knitr (Chapman & Hall/CRC The R Series) eBook released]]
+- [[http://www.slant.co/topics/67/~what-are-the-best-programming-fonts][What are the best programming fonts?]]
+- [[http://readwrite.com/2013/09/10/postresql-hits-93-new-levels-of-popularity-with-the-cool-kids?utm_source%3Ddirect-readwr.it&utm_campaign%3D&utm_medium%3Dreadwr.it-twitter&awesm%3Dreadwr.it_chl&utm_content%3Dreadwrite3-orionautotweet#awesm%3D~ohxt9CRpotLXAu][PostgreSQL Hits 9.3, New Levels Of Popularity With The Cool Kids – ReadWrite]]
+* Elsewhere
+- [[http://www.johndcook.com/blog/2012/07/16/reading-the-masters/][Reading the masters]]

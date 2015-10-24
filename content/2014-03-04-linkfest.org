@@ -1,0 +1,44 @@
+#+TITLE: Linkfest
+#+DATE: 2014-03-04
+#+CATEGORY: Linkfest
+I am going to try and start posting regularily again, including proper
+blog posts and not just linkfests.
+* Statistics and Machine Learning
+- [[%5B%5Bhttp://ivory.idyll.org/blog/not-sucking.html%5D%5BWriting%20Code%20That%20Doesn't%20Suck%5D%5D][A Fervent Defense of Frequentist Statistics]]
+- [[http://deeplearning4j.org/][Neural nets overview]]
+- [[%5B%5Bhttp://jmapping-maplabs.rhcloud.com/getting-started-with-scripted-geo-data-processing-postgresql-postgis-python-and-a-little-ogr/?utm_content%253Dbuffer1bae0&utm_medium%253Dsocial&utm_source%253Dtwitter.com&utm_campaign%253Dbuffer%5D%5BGetting%20Started%20With%20Scripted%20Geo-Data%20Processing%20(PostgreSQL,%20PostGIS,%20Python,%20and%20a%20little%20OGR)%20|%20Geo%20Perspectives%5D%5D][Bayesian Statistical Analysis with PyMC]]
+- [[http://www.cedar.buffalo.edu/~srihari/CSE574/][Machine Learning and Probabilistic Graphical Models: Course Materials]]
+- [[http://continuum.io/blog/bokeh-0.4.1%255D%255BBokeh%25200.4.1%255D%255D%5D%5BBuilding%20Responsive%20Visualizations%20with%20D3.js%20|%20Safari%20Books%20Online's%20Official%20Blog%5D%5D][A visual explanation of conditional probability]]
+- [[A%20Mac%20PrefPane%20to%20manage%20all%20your%20Homebrew-installed%20services][Data Analysis: The Hard Parts]]
+- [[http://blog.udacity.com/2014/02/now-available-at-udacity-courses-from.html][New machine learning MOOcs at Udacity from Georgia Tech]]
+- [[http://nbviewer.ipython.org/github/mwaskom/seaborn/blob/master/examples/plotting_distributions.ipynb?utm_content%3Dbuffer2788d&utm_medium%3Dsocial&utm_source%3Dtwitter.com&utm_campaign%3Dbuffer][Visualizing distributions of data]]
+- [[http://www.kdnuggets.com/2014/02/exclusive-yann-lecun-deep-learning-facebook-ai-lab.html][Interview with Yann LeCun, Deep Learning Expert, Director of Facebook AI Lab]]
+* ML/Stats Package of the Week
+- [[http://continuum.io/blog/bokeh-0.4.1][Bokeh 0.4.1]]
+- [[http://arxiv.org/abs/1312.2171][bartMachine: Machine Learning with Bayesian Additive Regression Trees]]
+* Paper(s) of the Week
+- [[http://arxiv.org/abs/1312.6116][Improving Deep Neural Networks with Probabilistic Maxout Units]]
+* Programming
+- [[%5B%5Bhttp://deeplearning4j.org/%5D%5Bdeeplearning4j.org%5D%5D][Python Tools for Machine Learning]] (really nice and worthwhile overview)
+- [[%5B%5B%255B%255Bhttp://deeplearning4j.org/%255D%255Bdeeplearning4j.org%255D%255D%5D%5BPython%20Tools%20for%20Machine%20Learning%20|%20CB%20Insights'%20Team%20Blog%5D%5D][Obtaining, Scrubbing, and Exploring Data at the Command Line]]
+- [[http://jmapping-maplabs.rhcloud.com/getting-started-with-scripted-geo-data-processing-postgresql-postgis-python-and-a-little-ogr/?utm_content%3Dbuffer1bae0&utm_medium%3Dsocial&utm_source%3Dtwitter.com&utm_campaign%3Dbuffer][Getting Started With Scripted Geo-Data Processing (PostgreSQL, PostGIS, Python, and a little OGR) | Geo Perspectives]]
+- [[%5B%5B%255B%255Bhttp://jmapping-maplabs.rhcloud.com/getting-started-with-scripted-geo-data-processing-postgresql-postgis-python-and-a-little-ogr/?utm_content%25253Dbuffer1bae0&utm_medium%25253Dsocial&utm_source%25253Dtwitter.com&utm_campaign%25253Dbuffer%255D%255BGetting%2520Started%2520With%2520Scripted%2520Geo-Data%2520Processing%2520(PostgreSQL,%2520PostGIS,%2520Python,%2520and%2520a%2520little%2520OGR)%2520|%2520Geo%2520Perspectives%255D%255D%5D%5BPyTenn_PyMC.pdf%20%E2%80%A2%20Droplr%5D%5D][High Performance Python at PyDataLondon 2014]]
+- [[http://lintool.github.io/MapReduceAlgorithms/MapReduce-book-final.pdf][Data-Intensive Text Processing with MapReduce]]
+- [[http://tapoueh.org/blog/2014/02/21-PostgreSQL-histogram.html][Drawing histograms in PostgreSQL]]
+- [[%5B%5Bhttp://continuum.io/blog/bokeh-0.4.1%5D%5BBokeh%200.4.1%5D%5D][Building Responsive Visualizations with D3.js]]
+- [[https://github.com/yhat/pandasql][pandasql]] (pandas with SQL syntax)
+- [[http://ivory.idyll.org/blog/not-sucking.html][Writing Code That Doesn't Suck]]
+- [[https://github.com/jimbojsb/launchrocket][launchrocket]] (a Mac PrefPane to manage all your Homebrew-installed services)
+- [[http://www.xavierdupre.fr/blog/2013-11-30_nojs.html?utm_content%3Dbuffer3b362&utm_medium%3Dsocial&utm_source%3Dtwitter.com&utm_campaign%3Dbuffer][More about interactive graphs using Python, d3.js, R, shiny, IPython, vincent, d3py, python-nvd3]]
+- [[http://pypix.com/roundups/best-python-2013/][The Best of Python in 2013]]
+- [[-%20%5B%5B%255B%255Bhttp://pypix.com/roundups/best-python-2013/%255D%255BThe%2520Best%2520of%2520Python%2520in%25202013%2520|%2520Pypix%255D%255D%5D%5BThe%20Yaksis%5D%5D][Vowpal Wabbit: the redis of the data science community]]
+- [[http://darrenjw.wordpress.com/2014/02/23/parallel-monte-carlo-using-scala/][Parallel Monte Carlo using Scala]]
+- [[http://stevenloria.com/python-best-practice-patterns-by-vladimir-keleshev-notes/][Steven Loria | Python Best Practice Patterns]]
+- [[http://blog.safaribooksonline.com/2014/02/27/using-ipython-profiles/?cid%3D201402-blog-ipython-social][Using IPython Profiles for More Effective Interactive Sessions]]
+- [[-%20%5B%5Bhttp://nbviewer.ipython.org/github/mwaskom/seaborn/blob/master/examples/plotting_distributions.ipynb?utm_content%253Dbuffer2788d&utm_medium%253Dsocial&utm_source%253Dtwitter.com&utm_campaign%253Dbuffer%5D%5BVisualizing%20distributions%20of%20data%5D%5D][Introducing the Pig Cheat Sheet]]
+- [[http://lcolladotor.github.io/2014/02/26/excited-by-willingness-to-help-get-things-done/?utm_source%3Dfeedburner&utm_medium%3Dtwitter&utm_campaign%3DFeed:%2BFellgernonBit-rstats%2B(Fellgernon%2BBit%2B-%2Brstats)#.UxYkc-ddUwN][rMaps Mexico map]]
+- [[http://acm3.wustl.edu/functional/haskell.php?utm_content%3Dbuffer40486&utm_medium%3Dsocial&utm_source%3Dtwitter.com&utm_campaign%3Dbuffer][How to learn Haskell]]
+- [[http://twiecki.github.io/blog/2014/02/24/ipython-nb-cluster/][Easily distributing a parallel IPython Notebook on a cluster]]
+- [[https://www.fpcomplete.com/user/haroldcarr/example-of-why-to-use-monads-what-they-can-do][Example of why to use monads - what they can do]]
+* Other cool stuff
+- [[http://ift.tt/1ha1pwM][EDEKA Supergeil (feat. Friedrich Liechtenstein)]]

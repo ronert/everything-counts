@@ -1,0 +1,32 @@
+#+TITLE: Weekend Linkfest 1.6.2013
+#+DATE: 2013-06-01
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[https://blog.twitter.com/2013/geography-tweets-3][The geography of Tweets | Twitter Blog]]
+- [[http://techcrunch.com/2013/05/30/wise-io-makes-its-debut-with-a-machine-learning-service-that-offers-as-a-service-what-google-builds-for-itself/][Wise.io Debuts Machine Learning Service That Offers To The Public What Google Builds For Itself]]
+- [[http://blog.vctr.me/posts/central-limit-theorem.html][Central Limit Theorem Visualized in D3]]
+- [[http://startup50.com/BigData-42][42 Big Data Startups – Vote for the Top 10]]
+- [[http://explainwell.com/families.html][Distribution Families]]
+- [[http://www.wired.com/wiredenterprise/2013/05/gpus-in-the-data-center/][Google Erects Fake Brain With ... Graphics Chips?]]
+- [[http://www.rinfinance.com/agenda/][R/Finance 2013 Slides]]
+- [[http://strata.oreilly.com/2013/05/signals-geometry-topology-and-data-science.html][How signals, geometry, and topology are influencing data science]]
+- [[http://asserttrue.blogspot.hu/2013/05/information-theory-in-three-minutes.html][Information Theory in Three Minutes]]
+- [[http://brenocon.com/blog/2013/04/monte-carlo-algorithm-inputs/][What inputs do Monte Carlo algorithms need?]]
+- [[http://jmlr.org/proceedings/papers/v28/][JMLR Paper]]
+- [[http://normaldeviate.wordpress.com/2013/05/25/brad-efron-tornadoes-and-diane-sawyer/][Brad Efron, Tornadoes, and Diane Sawyer]]
+* R Package of the Week
+- [[http://www.ancienteco.com/2012/05/quickly-visualize-your-whole-dataset.html?m%3D1][Quickly Visualize Your Whole Dataset]]
+* Paper of the Week
+- [[http://biostats.bepress.com/ucbbiostat/paper313/]["Subsemble: An Ensemble Method for Combining Subset-Specific Algorithm " by Stephanie Sapp, Mark J. van der Laan et al.]]
+* Programming
+- [[http://strata.oreilly.com/2013/04/workflow-tools-enable-the-rapid-deployment-of-models.html][Simpler workflow tools enable the rapid deployment of models]]
+- [[http://www.xmind.net/m/WvfC/][Python for big data - webbedfeet - XMind: Professional & Powerful Mind Mapping Software]]
+- [[http://blog.samibadawi.com/2013/02/scala-vs-haskell-vs-python.html?m%3D1][AI Computer Vision: Scala vs. Haskell vs. Python]]
+- [[http://bickson.blogspot.de/2013/05/nice-scala-tutorial.html][Nice Scala Tutorial]]
+- [[http://hortonworks.com/blog/hadoop-tutorials-real-life-use-cases-in-the-sandbox/][Hadoop Tutorials: Real Life Use Cases in the Sandbox]]
+- [[http://bitaesthetics.com/posts/make-for-data-scientists.html][Make for Data Scientists]]
+- [[http://naiquevin.github.io/a-look-at-some-of-pythons-useful-itertools.html][A look at some of Python's useful itertools]]
+- [[http://catherinedevlin.blogspot.de/2013/05/review-of-learning-ipython-for.html?spref%3Dtw][Catherine: pyOraGeek: Review of Learning IPython for Interactive Computing and Data Visualization]]
+* Elsewhere
+- [[http://allthingsd.com/20130530/tesla-ceo-and-spacex-founder-elon-musk-the-full-d11-interview-video/?mod%3Datdtweet][Full Video of Tesla and SpaceX Head Elon Musk at D11]]
+- [[http://lifehacker.com/search-all-the-major-online-course-providers-in-one-pla-510098706][RedHoop Finds Classes from All the Major Online Course Providers]]

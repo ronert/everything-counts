@@ -1,0 +1,41 @@
+#+TITLE: Weekend Linkfest 17.5.2013
+#+DATE: 2013-05-17
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://www.economist.com/news/business/21578084-making-official-data-public-could-spur-lots-innovation-new-goldmine?fsrc%3Drss%257Cbus][Open data: A new goldmine]]
+- [[http://shapeofdata.wordpress.com/][Exploring the geometry behind machine learning, data mining, etc.]]
+- [[http://harvarddatascience.com/2013/05/05/harvard-stat-221-statistical-computing-and-visualization-all-lectures-online/][Harvard Stat 221 "Statistical Computing and Visualization": all lectures online by Harvard Data Science]]
+- [[http://www.quora.com/Statistics-academic-discipline/What-is-the-major-difference-between-statistics-and-math-major-students/answer/Joe-Blitzstein?srid%3Dhe8P&share%3D1][Joe Blitzstein's answer to Statistics (academic discipline): What is the major difference between statistics and math major students?]]
+- [[http://r4stats.com/2013/05/14/beginning-of-the-end-v2/][Forecast Update: Will 2014 be the Beginning of the End for SAS and SPSS?]]
+- [[http://ift6266h13.wordpress.com/home/resources/][Resources for Representation Learning]]
+- [[-%20%5B%5B%2520|%2520texblog%255D%255D%5D%5B%20|%20texblog%5D%5D%5D%5D][Recent Developments in Deep Learning]]
+- [[http://www.cs.toronto.edu/~nitish/][Some nice deep learning papers]]
+- [[http://deeplearning.net/tutorial/][Deep Learning Tutorials]]
+- [[%5B%5B%2520%25E2%2580%2594%2520DeepLearning%2520v0.1%2520documentation%5D%5BGoogle%20Deep%20Learning%20-%20YouTube%5D%5D][Google Deep Learning - YouTube]]
+- [[http://work.caltech.edu/library/][Machine Learning Video Library - Learning From Data (Abu-Mostafa)]]
+- [[http://eventuallyalmosteverywhere.wordpress.com/2013/05/10/bayesian-inference-and-the-jeffreys-prior/][Bayesian Inference and the Jeffreys Prior]]
+- [[http://nbviewer.ipython.org/5105037][Using Python to see how the Times writes about men and women]]
+- [[http://appliedpredictivemodeling.com/blog/2013/4/29/feature-selection-strikes-back-part-1][Feature Selection Strikes Back (Part 1)]]
+- [[http://appliedpredictivemodeling.com/blog/2013/5/8/feature-selection-strikes-back-part-2][Feature Selection 2 - Genetic Boogaloo]]
+- [[http://izbicki.me/blog/markov-networks-monoids-and-futurama][Markov Networks, Monoids, and Futurama]]
+* R Package of the Week
+- [[http://cran.at.r-project.org/web/packages/xkcd/index.html][xkcd Plotting ggplot2 graphics in a XKCD style]]
+* Paper of the Week
+- [[http://www-stat.stanford.edu/~jhf/ftp/isle.pdf][Importance Sampled Learning Ensembles]]
+* Programming
+- [[http://www.numbertheory.nl/2013/05/14/much-more-efficient-bubble-sort-in-r-using-the-rcpp-and-inline-packages/][Much more efficient bubble sort in R using the Rcpp and inline packages | NumberTheory]]
+- [[http://raulraja.com/post/50282524432/scala-resources-community-links-for-the-newcomer][Scala Resources & Community links for the newcomer]]
+- [[http://www.nikhilgopal.com/2013/05/the-guerilla-guide-to-r.html][The Guerilla Guide to R]]
+- [[http://kbroman.github.io/github_tutorial/][git/github guide]]
+- [[http://texblog.org/2013/05/06/cleveref-a-clever-way-to-reference-in-latex/][Cleveref, a clever way to reference in LaTeX]]
+- [[http://www.statsravingmad.com/blog/measure/google-analytics-r-fun/?utm_source%3Drss&utm_medium%3Drss&utm_campaign%3Dgoogle-analytics-r-fun][Google Analytics + R = FUN!]]
+- [[http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692][Why Zsh is Cooler than Your Shell]]
+- [[http://mloss.org/revision/view/1302/][Machine learning with Haskell]]
+- [[http://kbroman.wordpress.com/2013/05/10/tutorials-on-gitgithub-and-gnu-make/][Tutorials on git/github and GNU make]]
+- [[http://www.continuum.io/blog/numba_growcut?utm_content%3Dbufferdda27&utm_source%3Dbuffer&utm_medium%3Dtwitter&utm_campaign%3DBuffer][Accelerating Python Libraries with Numba (Part 1)]]
+- [[https://github.com/myuhe/ess-R-data-view.el][ess-R-data-view.el]]
+- [[http://algs4.cs.princeton.edu/home/][Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne]]
+* Elsewhere
+- [[http://blog.stephenwolfram.com/2013/05/dropping-in-on-gottfried-leibniz/][Stephen Wolfram Blog : Dropping In on Gottfried Leibniz]]
+- [[http://lifehacker.com/why-our-brains-get-addicted-to-the-internet-and-how-to-499946974][Why Our Brains Get Addicted to the Internet (and How to Avoid It)]]
+- [[http://bickson.blogspot.de/2013/05/fun-readings-about-startups.html?utm_source%3Dfeedburner&utm_medium%3Dfeed&utm_campaign%3DFeed:%2Bblogspot/sYXZE%2B(Large%2BScale%2BMachine%2BLearning%2Band%2BOther%2BAnimals)&m%3D1][Large Scale Machine Learning and Other Animals: Fun Readings about Startups]]

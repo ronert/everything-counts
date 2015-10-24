@@ -1,0 +1,11 @@
+#+TITLE: Fast Cross-Validation
+#+DATE: 2013-06-24
+#+CATEGORY: Machine Learning
+#+TAGS: Papers
+Browsing through the 2013 [[http://icml.cc/2013/][ICML Atlanta]] papers, I found [[http://jmlr.org/proceedings/papers/v28/izbicki13.html][Algebraic classifiers: a generic approach to fast cross-validation, online training, and parallel training]] particularly interesting. Michael
+Izbicki shows that if a model can be represented as a monoid, the
+runtime of /k/-fold cross-validation can be reduced to $O(k+n)$ from
+$O(kn)$. His method is not an approximation either—the results are
+exact. I suggest you check out the paper for the details—this
+certainly looks really useful. For extra cool points, Michael Izbicki
+used Haskell for his implementation.

@@ -1,0 +1,103 @@
+#+TITLE: StarCluster and R
+#+DATE: 2013-09-01
+#+CATEGORY: R
+#+Tags: Cloud, AWS
+
+#+begin_quote
+StarCluster is a utility for creating and managing
+distributed computing clusters hosted on Amazon's Elastic Compute
+Cloud (EC2). StarCluster utilizes the Amazon EC2 web service to create
+and destroy clusters of Linux virtual machines on demand.
+#+end_quote
+
+StarCluster provides a convenient way to quickly set up a cluster of
+machines to run some data parallel jobs using a distributed
+memory framework. 
+
+Install StarCluster using
+
+#+begin_src sh :exports code
+$ sudo easy_install StarCluster
+#+end_src
+
+and then create a configuration file using 
+
+#+begin_src sh :exports code
+$ starcluster help
+#+end_src
+
+Add your AWS credentials to the config file and follow the
+instructions at the [[http://star.mit.edu/cluster/docs/latest/quickstart.html][StarCluster quick-Start guide]].
+
+Once you have StarCluster up and running, you need to install R on all the cluster nodes
+and any packages you require. I wrote a shell script to automate the process:
+
+#+begin_src sh :exports code
+#!/bin/zsh
+
+starcluster put $1 starcluster.setup.zsh /home/starcluster.setup.zsh
+starcluster put $1 Rpkgs.R /home/Rpkgs.R
+
+numNodes=`starcluster listclusters | grep "Total nodes" | cut -d' ' -f3`
+nodes=(`eval echo $(seq -f node%03g 1 $(($numNodes-1)))`)
+
+for node in $nodes; do
+    cmd="source /home/starcluster.setup.zsh >& /home/install.log.$node"
+    starcluster sshmaster $1 "ssh $node $cmd" &
+done
+#+end_src
+
+The script takes the name of your cluster as a parameter and pushes
+the two helper files to the cluster. It then runs the installation on
+the master and every node. It assumes you are running an Ubuntu Server
+based StarCluster AMI, which is the default. The first helper
+script, =starcluster.setup.zsh=, installs the basic software
+required:
+
+#+begin_src sh :exports code
+#!/bin/zsh
+
+echo "deb http://stat.ethz.ch/CRAN/bin/linux/ubuntu precise/" >> /etc/apt/sources.list
+gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
+gpg -a --export E084DAB9 | sudo apt-key add -
+apt-get update
+apt-get install -y r-base r-base-dev
+echo “DONE with Ubuntu package installation on $(hostname -s).”
+R CMD BATCH --no-save /home/Rpkgs.R /home/install.Rpkgs.log
+echo “DONE with R package installation on $(hostname -s).”
+#+end_src
+
+The second script, =Rpkgs.R=, is just a R script containing
+the packages you want installed:
+
+#+begin_src sh :exports code
+install.packages(c("randomForest", "caret", "mboost", "plyr", "glmnet"),
+ repos = "http://cran.cnr.berkeley.edu")
+print(paste("DONE with R package installation on ", system("hostname -s", intern = TRUE), "."))
+#+end_src
+
+Once you have everything installed, you can =ssh= into your master node and start up R as usual:
+
+#+begin_src sh :exports code
+$ starcluster sshmaster mycluster
+$ R
+#+end_src
+
+Since StarCluster has set up all the networking nicely, you can use
+=parLapply= from the =parallel= package to run a task on your cluster
+without further configuration. Running a data parallel task on a
+cluster with 10 nodes is now as easy as this (=parLapply= is just like
+=lapply=, except it distributes the tasks over the cluster):
+
+#+begin_src r :exports code
+library("parallel")
+cluster_names <- paste("node00", 1:9, sep="")
+cluster_names <- c(cluster_names, "node010")
+cluster <- makePSOCKcluster(names = cluster_names)
+output <- parLapply(cluster, some_input, some_function)
+stopCluster(cluster)
+#+end_src
+
+Now you can watch 10 machines working for you. Like!
+
+{% img center /images/starcluster.png %}

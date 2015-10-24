@@ -1,0 +1,56 @@
+#+TITLE: Compiliing R from Source with OpenMP, Accelerate and MKL in OS X
+#+DATE: 2013-05-24
+#+CATEGORY: R
+* Compiling R from Source in OS X
+I set out to find out whether I could speed up R by compiling it from source and:
+- using Apple´s [[https://developer.apple.com/performance/accelerateframework.html][Accelerate Framework]]
+- enabling [[http://openmp.org/wp/][OpenMP]] (which is disabled under OS X and Windows by default, but enabled under Linux)
+- using Intel´s [[http://software.intel.com/en-us/intel-mkl][Intel´s Math Kernel Library]]
+I also wanted to know how an implicit parallel library, like OpenMP,
+performs within explicit parallelism, e.g. calls from the =parallel=
+package.
+
+So I compiled 6 different versions of R 3.01 on OS X and tested them
+for speed against the OS X .pkg from CRAN. I used gcc 4.8 (not the gcc
+4.2 from Apple), which you can download from [[http://hpc.sourceforge.net/][here]]. For MKL, I used
+both the GNU (gcc, gfortran) and the Intel compilers (icc,
+ifortran). The 6 versions and their =configure= settings are:
+
+1) [[https://gist.github.com/ronert/5645530][R 3.01 compiled with Apple´s Accelerate framework]]
+2) [[https://gist.github.com/ronert/5645541][R 3.01 compiled with OpenMP enabled]]
+3) [[https://gist.github.com/ronert/5645561][R 3.01 compiled with gcc and gfortran using Intel MKL (sequential)]]
+4) [[https://gist.github.com/ronert/5645576][R 3.01 compiled with icc and ifortran using Intel MKL (sequential)]]
+5) [[https://gist.github.com/ronert/5645598][R 3.01 compiled with gcc and gfortran using Intel MKL (threaded)]]
+6) [[Https://gist.github.com/ronert/5645607][R 3.01 compiled with icc and ifortran using Intel MKL (threaded)]]
+* Benchmarks
+To measure the speed of the 7 Versions of R I now had (6 compiled, 1
+.pkg from CRAN), I used Simon Urbanek´s [[http://r.research.att.com/benchmarks/R-benchmark-25.R][R Benchmark 2.5]]. I let it
+execute serially for 8 runs, and then in parallel with 4 cores and
+2 runs each (so also 8 in total). Additionally, I let each version of
+R carry out a large matrix multiplication (10000 rows and 5000
+columns). Click [[https://gist.github.com/ronert/5645691][here to view the benchmark script.]] I ran the tests on
+an Intel Core i5 clocked at 2.9 GHz with 16 GB RAM.
+* Results
+Elapsed time in seconds for various R builds and benchmarks under OS X:
+| R 3.01                           | Bench. 2.5 | Bench. 2.5 mclapply | Matrix mult. |
+|----------------------------------+------------+---------------------+--------------|
+| CRAN OS X .pkg                   |    421.839 | 154.851             |      406.383 |
+| Accelerate with gcc              |    107.624 | NA                  |       15.730 |
+| OpenMP enabled with gcc          |    108.003 | NA                  |       14.530 |
+| MKL sequential compiled with gcc |    107.513 | NA                  |       15.449 |
+| MKL sequential compiled with icc |    133.528 | NA                  |       15.197 |
+| MKL threaded compiled with gcc   |    111.821 | NA                  |       14.694 |
+| MKL threaded compiled with icc   |    136.711 | NA                  |       15.033 |
+
+So what do all the NAs mean? None of the R versions I compiled could
+execute =mclapply()= without crashing. If anyone knows how to fix this,
+please drop me a message. The benchmarks of the R versions that did
+run were /much/ faster though. The Matrix multiplication was on
+average 2700% faster, and the more diversified R Benchmark was around
+400% faster than stock R on OS X for the optimized
+libraries. Nevertheless, if I cannot fix the crashes that occur with
+the parallel library, I am going to stick with the stock R version
+from CRAN. Any suggestions to improve the compiler options or tests to
+add to the profiling script are very welcome.
+* EDIT (21.06.2013)
+There is a new post about [[http://www.flaviobarros.net/2013/06/19/compiling-r-3-0-1-with-mkl-support/][Compiling R 3.0.1 with MKL support]] from Flavio Barros that may help some people.

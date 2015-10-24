@@ -1,0 +1,24 @@
+#+TITLE: Weekend Linkfest 1.9.2013
+#+DATE: 2013-09-01
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://datascience101.wordpress.com/2013/08/26/7-important-data-science-papers/][7 Important Data Science Papers]]
+- [[http://de.slideshare.net/sscdotopen/new-directions-in-mahouts-recommenders][New Directions in Mahout's Recommenders]]
+- [[http://eyeseast.github.io/visible-data/2013/08/26/responsive-d3/][DavaViz for Everyone: Responsive Maps With D3]]
+- [[http://andrewgelman.com/2013/08/27/bayesian-model-averaging-or-fitting-a-larger-model/][Bayesian model averaging or fitting a larger model]]
+* R Package of the Week
+- [[http://cran.r-project.org/web/packages/R2BayesX/index.html][R2BayesX]]
+* Paper of the Week
+- [[http://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2009/rapporter09/bernhardsson_erik_09071.pdf][Implementing a Scalable Music Recommender System]]
+* Programming
+- [[http://zvfak.blogspot.de/2013/08/using-javascript-visualization.html][Using JavaScript visualization libraries with R]]
+- [[http://www.exegetic.biz/blog/2013/08/the-wonders-of-foreach/][The Wonders of foreach]]
+- [[http://learnxinyminutes.com/][Learn X in Y Minutes: Scenic Programming Language Tours]]
+- [[https://github.com/kirang89/pycrumbs/blob/master/pycrumbs.md][Nice collection of Python tutorials]]
+- [[http://www.huyng.com/posts/python-performance-analysis/][A guide to analyzing Python performance « Huy Nguyen]]
+- [[%5B%5Bhttp://datascience101.wordpress.com/2013/08/26/7-important-data-science-papers/%5D%5B7%20Important%20Data%20Science%20Papers%20|%20Data%20Science%20101%5D%5D][fasd – fast command line navigation]]
+- [[https://github.com/clvv/fasd/blob/master/README.md][The Haskell Cast #1 - Edward Kmett and Lenses - YouTube]]
+- [[http://eyallotem.blogspot.co.il/2013/05/comparing-python-and-haskell.html?m%3D1][Eyal Lotem's thoughts: Comparing Python and Haskell]]
+- [[http://blog.revolutionanalytics.com/2013/08/in-hadoop-r-based-analytics-coming-to-cloudera.html][In-Hadoop R-based Analytics coming to Cloudera]]
+- [[https://github.com/docopt/docopt][docopt – Pythonic command line arguments parser, that will make you smile]]
+- [[http://pystan.readthedocs.org/en/latest/][PyStan: The Python Interface to Stan]]

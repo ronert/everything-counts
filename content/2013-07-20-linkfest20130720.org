@@ -1,0 +1,29 @@
+#+TITLE: Weekend Linkfest 20.7.2013
+#+DATE: 2013-07-20
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://blog.revolutionanalytics.com/2013/07/real-time-big-data-analytics-emerging-architecture.html][Real-Time Big Data Analytics: Emerging Architecture]]
+- [[http://www.machinedlearnings.com/2013/07/using-less-data.html][Machined Learnings: Using Less Data]]
+- [[http://nbviewer.ipython.org/urls/raw.github.com/agconti/kaggle-titanic/master/Titanic.ipynb][An IPython Notebook tutorial on competing in a Kaggle competition]]
+- [[http://datacommunitydc.org/blog/2013/07/python-for-data-analysis-the-landscape-of-tutorials/][Python for Data Analysis: The Landscape of Tutorials - Data Community DC]]
+- [[http://blog.revolutionanalytics.com/2013/07/high-performing-predictive-analytics-with-r-and-hadoop.html][High Performing Predictive Analytics with R and Hadoop]]
+- [[http://blog.mortardata.com/post/55692866435/recommender-systems-best-talks][Mortar Blog | Recommended: 5 Great Talks on Recommender Systems]]
+- [[http://www.iro.umontreal.ca/~bengioy/talks/deep-learning-tutorial-aaai2013.html][Deep Learning of Representations Tutorial AAAI 2013]]
+- [[http://blog.echen.me/2011/07/18/introduction-to-restricted-boltzmann-machines/][Introduction to Restricted Boltzmann Machines - Edwin Chen's Blog]]
+- [[http://normaldeviate.wordpress.com/2013/07/13/lost-causes-in-statistics-ii-noninformative-priors/][LOST CAUSES IN STATISTICS II: Noninformative Priors « Normal Deviate]]
+* R Package of the Week
+- [[http://www.r-statistics.com/2013/07/tailor-your-tables-with-stargazer-new-features-for-latex-and-text-output/][Tailor Your Tables with stargazer: New Features for LaTeX and Text Output]] 
+* Paper of the Week
+- [[http://arxiv.org/abs/1307.4643][Predicting financial markets with Google Trends and not so random keywords]]
+* Programming
+- [[http://www.rafekettler.com/magicmethods.html][A Guide to Python's Magic Methods « rafekettler.com]]
+- [[%5B%5Bhttp://www.rafekettler.com/magicmethods.html%5D%5BA%20Guide%20to%20Python's%20Magic%20Methods%20%C2%AB%20rafekettler.com%5D%5D][R documentation search - All R packages and R manuals from CRAN and Bioconductor]]
+- [[http://existentialtype.wordpress.com/2013/07/18/what-if-anything-is-a-declarative-language/][What, If Anything, Is A Declarative Language? | Existential Type]]
+- [[https://github.com/mikeizbicki/HLearn][HLearn – Homorphic Learning]]
+- [[http://www.youtube.com/playlist?gl%3DDE&client%3Dmv-google&hl%3Den&list%3DPLxj9UAX4Em-Ij4TKwKvo-SLp-Zbv-hB4B&nomobile%3D1][Haskell from Scratch - YouTube]]
+- [[http://4dpiecharts.com/2013/07/16/how-r-will-turn-into-sql/][How R will turn into SQL]]
+- [[http://fastml.com/running-things-on-a-gpu/][Running things on a GPU - FastML]]
+- [[http://www.stat.washington.edu/~hoytak/blog/whypython.html?utm_content%3Dbuffer709c3&utm_source%3Dbuffer&utm_medium%3Dtwitter&utm_campaign%3DBuffer][10 Reasons Python Rocks for Research (And a Few Reasons it Doesn’t) — Hoyt Koepke]]
+- [[http://appliedpredictivemodeling.com/blog/2013/7/13/user-2013-highlights][UseR! 2013 Highlights — Applied Predictive Modeling]]
+- [[http://gallery.rcpp.org/articles/dmvnorm_arma/][Faster Multivariate Normal densities with RcppArmadillo and OpenMP]]
+

@@ -1,0 +1,30 @@
+#+TITLE: Weekend Linkfest 28.7.2013
+#+DATE: 2013-07-28
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://not2hastie.tumblr.com/][Response to “Perils of LOO crossvalidation]]”
+- [[http://statblog.net/2013/07/27/shrinkage-priors-computational-vs-statistical-efficiency-2/][Shrinkage Priors: Computational vs. Statistical Efficiency |]]
+- [[http://normaldeviate.wordpress.com/2013/07/27/the-steep-price-of-sparsity/][The Steep Price of Sparsity « Normal Deviate]]
+- [[https://www.coursera.org/course/recsys][Introduction to Recommender Systems | Coursera]]
+- [[http://www.quora.com/Mathematics/What-is-the-most-unexpected-relationship-that-you-have-come-across-in-mathematical-statistics-connecting-different-distributions/answer/Joe-Blitzstein?srid%3Dhe8P&share%3D1][Joe Blitzstein's answer to Mathematics: What is the most unexpected relationship that you have come across in mathematical statistics (connecting different distributions)? - Quora]]
+- [[http://www.quora.com/Statistics-academic-discipline/Why-might-Bayesian-statisticians-not-like-the-Neyman-Pearson-test/answer/Joe-Blitzstein?srid%3Dhe8P&share%3D1][Joe Blitzstein's answer to Statistics (academic discipline): Why might Bayesian statisticians not like the Neyman-Pearson test? - Quora]]
+- [[http://emcplus.emc.com/2013/07/mckinsey-report-highlights-impending-data-scientist-shortage.html][McKinsey Report Highlights Impending Data Scientist Shortage - EMC+]]
+- [[http://shapeofdata.wordpress.com/2013/07/23/gaussian-kernels/][Gaussian kernels | The Shape of Data]]
+- [[http://simplystatistics.org/2013/07/22/what-are-the-5-most-influential-statistics-papers-of-2000-2010/][What are the 5 most influential statistics papers of 2000-2010? | Simply Statistics]]
+- [[http://normaldeviate.wordpress.com/2013/07/23/the-five-jeff-leeks-challenge/][THE FIVE: Jeff Leek’s Challenge « Normal Deviate]]
+- [[http://vita.had.co.nz/papers/tidy-data.pdf][Tidy Data]]
+- [[http://arxiv.org/abs/1304.5299][Austerity in MCMC Land: Cutting the Metropolis-Hastings Budget]]
+- [[http://www.reddit.com/r/MachineLearning/comments/1iqwnt/videos_of_all_the_talks_of_icml_2013_are_now/?utm_source%3Dtwitterfeed&utm_medium%3Dtwitter][Videos of all the talks of ICML 2013 are now available]]
+* R Package of the Week
+- [[http://www.bnosac.be/index.php/blog/29-connect-r-with-myrrix-mahout-a-clouderas-real-time-scalable-recommender-system][Connect R with Myrrix - Mahout & Cloudera's real-time, scalable recommender system]]
+* Paper of the Week
+- [[http://www.techcast.com/events/bigtechday6/odeon-1345/?q%3Dodeon-1345][Predicting the Present with Bayesian Structural Time Series]]
+* Programming
+- [[http://www.techcast.com/events/bigtechday6/odeon-1345/?q%3Dodeon-1345][Cloud Haskell]]
+- [[http://adit.io/posts/2013-07-22-lenses-in-pictures.html][Lenses In Pictures]]
+- [[http://choosealicense.com/][Choosing an OSS license doesn’t need to be scary - ChooseALicense.com]]
+- [[%5B%5Bhttp://simplystatistics.org/2013/07/22/what-are-the-5-most-influential-statistics-papers-of-2000-2010/%5D%5BWhat%20are%20the%205%20most%20influential%20statistics%20papers%20of%202000-2010?%20|%20Simply%20Statistics%5D%5D][Learn Python - from the best tutorials and online courses]]
+- [[http://www.r-statistics.com/2013/07/analyzing-your-data-on-the-aws-cloud-with-r/][Analyzing Your Data on the AWS Cloud (with R)]]
+- [[http://hadoopsummit.org/san-jose/schedule/?utm_source%3Dtwitter&utm_medium%3Dstatus][Hadoop Summit: Videos and Slides, San Jose - June 26-27, 2013]] 
+* Elsewhere
+- [[http://practicaltypography.com/][Butterick’s Practical Typography]]

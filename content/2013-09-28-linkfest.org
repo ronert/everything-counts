@@ -1,0 +1,38 @@
+#+TITLE: Weekend Linkfest 28.9.2013
+#+DATE: 2013-09-28
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://vis.stanford.edu/projects/immens/][imMens: Real-time Visual Querying of Big Data]]
+- [[http://www.nature.com/nmeth/journal/v10/n10/full/nmeth.2659.html][Points of Significance: Error bars]]
+- [[http://requestinfo.datascience.berkeley.edu/index.html?s%3Dtwitterppc&l%3D1gds_ht_tl_gen1&utm_source%3Dtwitterppc&utm_medium%3Dlink&utm_campaign%3D1gds_ht_tl_gen1][atascience@berkeley]]
+- [[http://www.forbes.com/sites/jeffmcmahon/2013/09/25/utilities-dumbstruck-by-big-data-from-smarter-grid/][Utilities Dumbstruck By Big Data From Smarter Grid]]
+- [[http://svonava.com/post/62186512058/datasets-released-by-google][Datasets released by Google]]
+- [[http://www.technologyreview.com/news/519411/facebook-launches-advanced-ai-effort-to-find-meaning-in-your-posts/][Facebook Chases Google’s Deep Learning with New Research Group]]
+- [[https://vimeo.com/75358652][Discovering Hidden Structure in Data with Latent Variable Models in Python on]]
+- [[http://mloss.org/revision/view/1404/][LIBOL is an open-source library for large-scale online classification]]
+- [[http://www.nature.com/srep/2013/130207/srep01236/full/srep01236.html][Extracting insights from the shape of complex data using topology]]
+- [[http://dl.acm.org/citation.cfm?id%3D2391072][Monte Carlo MCMC: efficient inference by approximate sampling]]
+- [[http://blog.mikiobraun.de/2013/09/designing-machine-learning-frameworks.html][Designing ML frameworks]]
+- [[https://github.com/JasperSnoek/spearmint][Spearmint is a package to perform Bayesian optimization]]
+- [[http://simplystatistics.org/2013/09/17/announcing-the-simply-statistics-unconference-on-the-future-of-statistics-futureofstats/][Announcing the Simply Statistics Unconference on the Future of Statistics #futureofstats]]
+- [[http://www.chrisstucchio.com/blog/2013/bayesian_bandit.html][Bayesian Bandits - optimizing click throughs with statistics]]
+- [[http://errorstatistics.com/2013/09/14/when-bayesian-inference-shatters-owhadi-scovel-and-sullivan-guest-post/][“When Bayesian Inference Shatters” Owhadi, Scovel, and Sullivan]]
+- [[http://statsatlmu.tumblr.com/post/61393875021/penalized-likelihood-and-bayesian-function-selection-in][Penalized likelihood and Bayesian function selection in regression models]]
+- [[http://www.cs.toronto.edu/~hinton/absps/guideTR.pdf?utm_source%3Dbuffer&utm_campaign%3DBuffer&utm_content%3Dbuffer2f66c&utm_medium%3Dtwitter][A Practical Guide to Training Restricted Boltzmann Machines]]
+* R Package of the Week
+- [[http://blog.mckuhn.de/2013/09/introducing-parallelrandomforest-faster.html][Introducing parallelRandomForest: faster, leaner, parallelized]]
+* Paper of the Week
+- [[http://arxiv.org/abs/1309.6865][Modeling Documents with Deep Boltzmann Machines]]
+* Programming
+- [[http://blog.mortardata.com/post/61501767090/hadoop-for-data-science][Hadoop for Data Science (Slides & Video) | Mortar Blog]]
+- [[http://www.chrisstucchio.com/blog/2013/hadoop_hatred.html][Don't use Hadoop - your data isn't that big]]
+- [[http://adv-r.had.co.nz/][Advanced R Programming]]
+- [[http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html][7 command-line tools for data science]]
+- [[http://gastonsanchez.wordpress.com/2013/09/22/handling-and-processing-strings-in-r/][Handling and Processing Strings in R]]
+- Video: [[https://thenewcircle.com/s/post/1540/a_billion_rows_per_second_metaprogramming_python_for_big_data_ville_tuulos_video][A Billion Rows per Second: Metaprogramming Python for Big Data]] Slides: [[http://tuulos.github.io/sf-python-meetup-sep-2013/#/][Metaprogramming Python for Big Data]]
+- [[https://github.com/olgabot/prettyplotlib][Prettyplitlib for good looking matplotlib plots]]
+- [[http://gigaom.com/2013/09/25/databricks-raises-14m-from-andreessen-horowitz-wants-to-take-on-mapreduce-with-spark/][Databricks raises $14M from Andreessen Horowitz, wants to take on MapReduce with Spark]]
+- [[http://blog.revolutionanalytics.com/2013/09/r-302-frisbee-sailing-now-available.html][R 3.0.2 "Frisbee Sailing" now available]]
+- [[http://www.chrisstucchio.com/blog/2013/why_not_python.html][Why Not Python - the GIL hinders concurrency]]
+* Elsewhere
+

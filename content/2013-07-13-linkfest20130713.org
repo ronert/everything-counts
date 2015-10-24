@@ -1,0 +1,23 @@
+#+TITLE: Weekend Linkfest 13.7.2013
+#+DATE: 2013-07-13
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://robjhyndman.com/hyndsight/user2013/][Hyndsight - Reflections on UseR! 2013]]
+- [[http://blog.revolutionanalytics.com/2013/07/user-2013-day-1.html][UseR! 2013 - Day 1 notes]]
+- [[http://conductrics.com/data-science-resources/][A List of Data Science and Machine Learning Resources | Conductrics]]
+* R Package of the Week
+- [[http://cran.r-project.org/web/packages/pbdDEMO/vignettes/pbdDEMO-guide.pdf][pbdR]]
+* Paper of the Week
+- [[http://projecteuclid.org/DPubS/Repository/1.0/Disseminate?view%3Dbody&id%3Dpdfview_1&handle%3Deuclid.ssu/1268143839][A survey of cross-validation procedures for model selection]]
+* Programming
+- [[http://datasciencelondon.org/scraping-and-parsing-pdfs-in-python-by-ian-hopkinson/][“Scraping and Parsing PDFs in Python” by Ian Hopkinson | Data Science London]]
+- [[http://www.stephendiehl.com/posts/monads.html][Monads made difficult]]
+- [[http://madlib.net/][MADlib]]
+- [[http://datacommunitydc.org/blog/2013/07/a-julia-meta-tutorial/][A Julia Meta Tutorial - Data Community DC]]
+- [[http://www.stephendiehl.com/posts/postmodern.html][Navigating the Postmodern Python World]]
+- [[https://github.com/hadley/dplyr][dplyr]]
+- [[http://andy.terrel.us/blog/2012/09/27/starting-with-python/][Getting started with Python in HPC]]
+- [[http://www.stat.wisc.edu/~bates/JuliaForRProgrammers.pdf][Julia for R programmers]]
+- [[http://fastml.com/introducing-phraug/][Introducing phraug - FastML]]
+- [[%5B%5Bhttp://conductrics.com/data-science-resources/%5D%5BA%20List%20of%20Data%20Science%20and%20Machine%20Learning%20Resources%20|%20Conductrics%5D%5D][Python Tools for Coding and Feature Learning; SciPy 2013 Presentation - YouTube]]
+- [[http://discrete.gr/complexity/?repost%3Dtrue][A Gentle Introduction to Algorithm Complexity Analysis]]

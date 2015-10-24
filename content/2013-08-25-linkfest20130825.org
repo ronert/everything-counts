@@ -1,0 +1,32 @@
+#+TITLE: Weekend Linkfest 25.8.2013
+#+DATE: 2013-08-25
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://magazine.amstat.org/blog/2013/08/01/big-data-era/][Where Does a Statistician Fit in the Big Data Era?]]
+- [[http://normaldeviate.wordpress.com/2013/08/09/the-jsm-minimaxity-and-the-language-police/][The JSM, Minimaxity and the Language Police]]
+- [[http://www.mma.ugent.be/predictive_analytics/customer_intelligence/Blog/Entries/2013/8/15_Entry_1.html][ACM KDD 2013 in Chicago]]
+- [[http://engineering.linkedin.com/event/video-3-big-data-tech-talks-you-can%25E2%2580%2599t-miss][Video: 3 Big Data Tech Talks You Can’t Miss | LinkedIn Engineering]]
+- [[%5B%5Bhttp://www.reddit.com/r/haskell/comments/1k3fq7/what_are_some_killer_libraries_and_frameworks/cbldpgy%5D%5Bedwardkmett%20comments%20on%20What%20are%20some%20killer%20libraries%20and%20frameworks%20unique%20to%20Haskell?%5D%5D][Learning Representations: A Challenge for Learning Theory]]
+- [[http://twiecki.github.io/blog/2013/09/12/bayesian-glms-1/][The Inference Button: Bayesian GLMs made easy with PyMC3]]
+- [[http://oedb.org/open/subjects/math/][Free Online Math Classes]]
+- [[http://www.sciencemag.org/site/feature/data/compsci/machine_learning.xhtml][Machine Learning Resources]]
+- [[http://vincentarelbundock.github.io/Rdatasets/datasets.html][Collection of R Datasets]]
+- [[http://www.cs.nyu.edu/~yann/talks/lecun-ranzato-icml2013.pdf][Deep Learning Tutorial]]
+- [[%5B%5Bhttp://www.cs.nyu.edu/~yann/talks/lecun-ranzato-icml2013.pdf%5D%5Bwww.cs.nyu.edu/~yann/talks/lecun-ranzato-icml2013.pdf%5D%5D][Apache Spark: Distributed Machine Learning using MLbase]]
+- [[http://www.bizjournals.com/sanjose/news/2013/08/12/google-scientist-jeff-dean-on-how.html?ana%3Dtwt][Google scientist Jeff Dean on how neural networks are improving everything Google does]]
+* R Package of the Week
+- [[http://cran.r-project.org/web/packages/visreg/index.html][visreg]]
+* Paper of the Week
+- [[http://link.springer.com/article/10.1007/s11222-009-9148-5][Twin Boosting: improved feature selection and prediction]]
+* Programming
+- [[http://www.reddit.com/r/haskell/comments/1k3fq7/what_are_some_killer_libraries_and_frameworks/cbldpgy][What are some killer libraries and frameworks unique to Haskell?]]
+- [[http://www.akkadia.org/drepper/cpumemory.pdf][What every programmer should know about memory]]
+- [[http://www.willamette.edu/~fruehr/haskell/evolution.html][The Evolution of a Haskell Programmer]]
+- [[http://ricardoduarte.github.io/python-for-developers/][Python for Developers]]
+- [[http://blog.jorgenschaefer.de/2013/08/elpy-11-released.html][Elpy 1.1 Released]]
+- [[https://textblob.readthedocs.org/en/latest/][TextBlob: Simplified Text Processing]]
+- [[https://vimeo.com/72777096][StarCluster]]
+- [[http://zinkov.com/posts/2013-08-13-vowpal-tutorial/][Vowpal Wabbit tutorial for the Uninitiated]]
+- [[http://www.rdatamining.com/tutorials/rhadoop][Building an R Hadoop System]]
+- [[%5B%5Bhttp://www.rdatamining.com/tutorials/rhadoop%5D%5BBuilding%20an%20R%20Hadoop%20System%20-%20RDataMining.com:%20R%20and%20Data%20Mining%5D%5D][GNU Parallel]]
+

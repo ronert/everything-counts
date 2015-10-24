@@ -1,0 +1,42 @@
+#+TITLE: Weekend Linkfest 9.11.2013
+#+DATE: 2013-11-09
+#+CATEGORY: Linkfest
+I successfully defended my master thesis this week, so I was too busy to post linkfests in the meantime. But now I am back! I have also released my first package on CRAN: [[http://cran.r-project.org/web/packages/parboost/][parboost]]. Expect more on \texttt{parboost} in another post.
+* Statistics and Machine Learning
+- [[https://speakerdeck.com/ogrisel/growing-randomized-trees-in-the-cloud][Growing Randomized Trees in the Cloud]]
+- [[http://cornercases.wordpress.com/2013/10/23/example-python-machine-learning-algorithm-on-spark/][Example Python Machine Learning Algorithm on Spark]]
+- [[http://gastonsanchez.wordpress.com/2013/10/26/literate-testing-in-r/][Literate Testing in R]]
+- [[%5B%5Bhttp://weblog.bocoup.com/towards-responsiveness-with-d3/%5D%5BTowards%20Responsiveness%20with%20d3chartjs%20-%20Bocoup%5D%5D][CS281: Advanced Machine Learning]]
+- [[http://www.sumsar.net/blog/2013/10/how-do-you-write-your-model-definitions/][How Do You Write Your Model Definitions?]]
+- [[%5B%5Bhttps://www.atlassian.com/git%5D%5BGit%20Tutorials%20and%20Training%20|%20Atlassian%5D%5D][Free Book: Theory and Applications for Advanced Text Mining]]
+- [[%5B%5Bhttp://adv-r.had.co.nz/memory.html%5D%5BMemory%20usage%20%C2%B7%20Advanced%20R.%5D%5D][Mahout - Future Directions]]
+- [[https://amplab.cs.berkeley.edu/2013/10/23/got-a-minute-spin-up-a-spark-cluster-on-your-laptop-with-docker/][Got a Minute? Spin up a Spark cluster on your laptop with Docker]]
+- [[http://intentmedia.github.io/2013/10/30/running-vw-on-emr/][Vowpal Wabbit on Elastic MapReduce]]
+- [[http://www.drdobbs.com/open-source/machine-learning-with-apache-mahout-the/240163272][Machine Learning with Apache Mahout: The Lay of the Land]]
+- [[-%20%5B%5B%255B%255Bhttp://accidental-art.tumblr.com/%255D%255Baccidental%2520aRt%255D%255D%5D%5BGraphLab%20Notebook%20|%20GraphLab%5D%5D][GraphLab Notebook | GraphLab]]
+- [[http://accidental-art.tumblr.com/][accidental aRt]]
+- [[http://doingbayesiandataanalysis.blogspot.de/2013/10/diagrams-for-hierarchical-models-new.html?m%3D1][Doing Bayesian Data Analysis: Diagrams for hierarchical models: New drawing tools]]
+- [[http://gigaom.com/2013/11/01/the-gigaom-guide-to-deep-learning-whos-doing-it-and-why-it-matters/][The Gigaom guide to deep learning: Who’s doing it, and why it matters]]
+- [[http://econsultancy.com/dk/blog/62844-24-beautifully-designed-web-dashboards-that-data-geeks-will-love][24 beautifully-designed web dashboards that data geeks will love]]
+* R Package of the Week
+- [[http://jmlr.org/papers/v12/hahsler11a.html][The arules R-Package Ecosystem: Analyzing Interesting Patterns from Large Transaction Data Sets]]
+* Paper(s) of the Week
+- [[http://jmlr.org/papers/v11/sonnenburg10a.html][The SHOGUN Machine Learning Toolbox]]
+- [[http://jmlr.org/papers/v12/tamada11a.html][Parallel Algorithm for Learning Optimal Bayesian Network Structure]]
+- [[http://jmlr.org/papers/v10/shi09a.html][Hash Kernels for Structured Data]]
+- [[%5B%5B%255B%255Bhttps://www.atlassian.com/git%255D%255BGit%2520Tutorials%2520and%2520Training%2520|%2520Atlassian%255D%255D%5D%5BFree%20Book:%20Theory%20and%20Applications%20for%20Advanced%20Text%20Mining%5D%5D][Analysis of Random Forest Model]]
+- [[%5B%5Bhttp://gigaom.com/2013/11/01/the-gigaom-guide-to-deep-learning-whos-doing-it-and-why-it-matters/%5D%5BThe%20Gigaom%20guide%20to%20deep%20learning:%20Who%E2%80%99s%20doing%20it,%20and%20why%20it%20matters%20%E2%80%94%20Tech%20News%20and%20Analysis%5D%5D][Random Search for Hyper-Parameter Optimization]]
+* Programming
+- [[http://strata.oreilly.com/2013/10/julias-role-in-data-science.html][Julia’s Role in Data Science]]
+- [[http://sensitivecities.com/so-youd-like-to-make-a-map-using-python-EN.html#.Un5sbmRDuzk][So You’d Like To Make a Map Using Python]]
+- [[http://weblog.bocoup.com/towards-responsiveness-with-d3/][Towards Responsiveness with d3chartjs]]
+- [[http://gibiansky.github.io/IHaskell/][IHaskell: Haskell for IPython]]
+- [[http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way/][Learn Haskell Fast and Hard]]
+- [[http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis][Cassandra vs MongoDB vs CouchDB vs Redis vs Riak vs HBase vs Couchbase vs Hypertable vs ElasticSearch vs Accumulo vs VoltDB vs Scalaris comparison]]
+- [[https://github.com/tdsmith/aRrgh][aRrgh: a newcomer’s (angry) guide to data types in R]]
+- [[https://www.atlassian.com/git][Git Tutorials and Training]]
+- [[http://adv-r.had.co.nz/memory.html][Memory usage in R]]
+- [[http://www.ec2instances.info/][Amazon EC2 Instance Comparison]]
+- [[%5B%5Bhttp://econsultancy.com/dk/blog/62844-24-beautifully-designed-web-dashboards-that-data-geeks-will-love%5D%5B24%20beautifully-designed%20web%20dashboards%20that%20data%20geeks%20will%20love%20|%20Econsultancy%5D%5D][Interview: Bjarne Stroustrup Discusses C++]]
+
+

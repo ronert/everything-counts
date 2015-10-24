@@ -1,0 +1,37 @@
+#+TITLE: Weekend Linkfest 20.10.2013
+#+DATE: 2013-10-20
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- [[http://jmlr.org/papers/v11/rasmussen10a.html][Gaussian Processes for Machine Learning (GPML) Toolbox]]
+- [[http://rpubs.com/schmidb/rstatsMongoDB][R Statistics with MongoDB]]
+- [[https://www.ipam.ucla.edu/schedule.aspx?pc%3Dgss2012][Graduate Summer School: Deep Learning, Feature Learning]]
+- [[http://tsunami.io/blog-DBN_Digits.html][Deep Belief Nets with Tsunami]]
+- [[http://deep-awesomeness.tumblr.com/?og%3D1][Sum-product networks]]
+- [[http://nbviewer.ipython.org/urls/raw.github.com/fonnesbeck/multilevel_modeling/master/multilevel_modeling.ipynb][An Introduction to Bayesian Methods for Multilevel Modeling]]
+- [[https://github.com/halrlee/research/wiki/Machine-Learning-&-Deep-Learning-Links][Machine Learning & Deep Learning Links]]
+- [[https://aws.amazon.com/marketplace/pp/B00FQRYRP6][Data Science Toolkit on AWS Marketplace]]
+- [[http://bayesianbiologist.com/2013/10/10/calculating-auc-the-hard-way/][Calculating AUC the hard way]]
+* R Package of the Week
+- [[http://trestletechnology.net/2013/10/interactive-3d-in-shiny-shinyrgl/][Interactive 3D in Shiny (shinyRGL)]]
+* Paper(s) of the Week
+- [[http://arxiv.org/pdf/1309.7804v1.pdf][On statistics, computation and scalability]]
+- [[http://jmlr.org/papers/v14/mukherjee13a.html][A Theory of Multiclass Boosting]]
+- [[http://jmlr.org/papers/v14/curtin13a.html][MLPACK: A Scalable C++ Machine Learning Library]]
+* Programming
+- [[http://www.inf.fu-berlin.de/inst/ag-ki/rojas_home/documents/1996/NeuralNetworks/neuron.pdf][Markdown Cheatsheet]]
+- [[http://geops.csail.mit.edu/docs/mapd_overview.pdf][An Overview of MapD (Massively Parallel Database)]]
+- [[http://lifehacker.com/grab-over-500-free-programming-books-from-github-1447805132][Grab Over 500 Free Programming Books from GitHub]]
+- [[http://flowingdata.com/2013/10/18/responsive-maps-with-d3-js/][Responsive maps with D3.js]]
+- [[http://enja.org/d3/][d3 Tutorials]]
+- [[http://ilanthedataman.com/understanding-the-data-game/2013/9/30/messing-with-students][Messing with d3]]
+- [[https://github.com/yhat/ggplot/blob/master/README.md][ggplot clone for Python]]
+- [[http://www.youtube.com/watch?feature%3Dyoutu.be&v%3DKZHzrRHJqbo&desktop_uri%3D%252Fwatch%253Fv%253DKZHzrRHJqbo%2526feature%253Dyoutu.be&app%3Ddesktop][Hadoop YARN Meeting - 27 September 2013 - YouTube]]
+- [[http://readwrite.com/2013/10/16/hadoop-2-yarn-mapreduce-2-big-data-more-accessible?utm_campaign%3D&utm_source%3Ddirect-readwr.it&awesm%3Dreadwr.it_c03h&utm_medium%3Dreadwr.it-twitter&utm_content%3Dreadwrite3-orionautotweet#awesm%3D~okOcCywt0Jmxak][Hadoop 2.0 Makes Big Data Even More Accessible]]
+- [[https://vimeo.com/76921351][Scalable Analytics and Visualization: Connecting Expertise to Data With Python on Vimeo]]
+- [[http://mattfaus.com/2013/10/big-data-at-khan-academy/][Big Data at Khan Academy]]
+- [[http://hackflow.com/blog/2013/10/13/functional-python-made-easy/][Functional Python Made Easy]]
+- [[https://github.com/Mathapedia/LaTeX2HTML5][LaTeX2HTML5]]
+- [[https://github.com/mendeley/mrec][mrec recommender systems library]]
+- [[http://wrobstory.github.io/2013/10/mapping-data-python.html][Mapping Data in Python with Pandas and Vincent]]
+- [[http://statacumen.com/teach/SC1/SC1_16_Maps.pdf][Maps in R]]
+- [[http://decisionstats.com/2013/10/08/plyrmr-bringing-rstats-plyr-to-map-reduce-for-hadoop/][Plyrmr- bringing #rstats Plyr to Map Reduce for Hadoop]]

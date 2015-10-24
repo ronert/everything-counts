@@ -1,0 +1,183 @@
+#+TITLE: Setting up Octopress with Org-Mode
+#+DATE: 2013-05-17
+#+CATEGORY: Emacs
+#+TAGS: Otopress, Emacs, LaTeX
+* Introduction
+[[http://octopress.org/][Octopress]] is an awesome static blog generator based on [[https://github.com/mojombo/jekyll][Jekyll]], which I
+use for this site. Setting it up to work smoothly entirely from Emacs
+(the most mind-blowing text editor in the world) with org-mode can be a bit
+tricky. This is how I did it.
+* Installing Octopress
+Octopress has a nice [[http://octopress.org/docs/setup/][setup guide]], which you should follow. The only hurdle
+I encountered, was setting up rbenv with homebrew under OS X. First,
+install =rbenv=:
+#+begin_src sh
+  $ brew update
+  $ brew install rbenv
+  $ brew install ruby-build
+#+end_src
+Then install Ruby 1.9.3:
+#+begin_src sh
+  $ rbenv install 1.9.3-p194
+  $ rbenv rehash
+#+end_src
+The tricky part is that you have to add =rbenv= to your path by appending
+#+begin_src sh
+  export PATH=~/.rbenv/shims:$PATH
+  if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+#+end_src
+to your =.zshrc= or =.bashrc=. Now check wether =ruby --version= is 1.9.3.
+
+Finally, I installed the [[http://zespia.tw/Octopress-Theme-Slash/][Slash]] theme with no changes to the defaults.
+* Configuring Org-Mode
+Now it is time to configure org-mode for exporting to
+Octopress. Install the [[https://github.com/craftkiller/orgmode-octopress][org-mode octopress exporter]] and follow the
+instructions from [[http://blog.paphus.com/blog/2012/08/01/introducing-octopress-blogging-for-org-mode/][here]]. But we are not done yet, the workflow is still
+far too cumbersum: You need to move posts manually and open them im
+org-mode. That is not the true Emacs style! Luckily, Xu Zhiqiang
+made some [[http://blog.xeonxu.info/blog/2012/09/05/you-hua-shi-yong-orgmodefa-bu-octopressde-fang-fa/][modifications]] to automate this workflow. Edit the Rakefile, adding
+an editor variable:
+#+begin_src ruby
+ deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
+ stash_dir       = "_stash"    # directory to stash posts for speedy generation
+ posts_dir       = "_posts"    # directory for blog files
+ org_posts_dir   = "org_posts"
+ themes_dir      = ".themes"   # directory for blog files
+ new_post_ext    = "org"  # default new post file extension when using the new_post task
+ new_page_ext    = "markdown"  # default new page file extension when using the new_page task
+ server_port     = "4000"      # port for preview server eg. localhost:4000
+
+ editor ="~/bin/em" # Emacs wrapper
+#+end_src
+and make a script in your path like so:
+#+begin_src sh
+  #!/bin/bash
+  /Applications/Emacs.app/Contents/MacOS/bin/emacsclient -n -a "/Applications/Emacs.app/Contents/MacOS/Emacs" $1 > /dev/null 2>&1 &
+#+end_src
+Make the following modifications to your Rakefile, so Octopress
+recognizes your =org_posts_dir=. In the =task :install, :theme
+do |t, args|= statement add the =org_posts_dir= statement.
+#+begin_src ruby
+  theme = args.theme || 'classic'
+  puts "## Copying "+theme+" theme into ./#{source_dir} and ./sass"
+  mkdir_p source_dir
+  cp_r "#{themes_dir}/#{theme}/source/.", source_dir
+  mkdir_p "sass"
+  cp_r "#{themes_dir}/#{theme}/sass/.", "sass"
+  mkdir_p "#{source_dir}/#{posts_dir}"
+  mkdir_p "#{source_dir}/#{org_posts_dir}"
+  mkdir_p public_dir
+#+end_src
+In the =task :new_post, :title do |t, args|= also insert =org_posts_dir=
+#+begin_src ruby
+task :new_post, :title do |t, args|
+   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
+   mkdir_p "#{source_dir}/#{posts_dir}"
+   mkdir_p "#{source_dir}/#{org_posts_dir}"
+   args.with_defaults(:title => 'new-post')
+   title = args.title
+   filename = "#{source_dir}/#{org_posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+   if File.exist?(filename)
+     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+   end
+#+end_src
+In order to open up Emacs and visit a new post immediately after creating it, we need to add the following editing statement to =new_post=:
+#+begin_src ruby
+desc "Begin a new post in #{source_dir}/#{org_posts_dir}"
+task :new_post, :title do |t, args|
+  raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
+  mkdir_p "#{source_dir}/#{posts_dir}"
+  mkdir_p "#{source_dir}/#{org_posts_dir}"
+  args.with_defaults(:title => 'new-post')
+  title = args.title
+  filename = "#{source_dir}/#{org_posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+  puts "Creating new post: #{filename}"
+  open(filename, 'w') do |post|
+    post.puts "#+BEGIN_HTML"
+    post.puts "---"
+    post.puts "layout: post"
+    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "comments: true"
+    post.puts "categories: "
+    post.puts "---"
+    post.puts "#+END_HTML"
+  end
+  if #{editor}
+    system "sleep 1; #{editor} #{filename}"
+  end
+end
+#+end_src
+Add the same editing statement to =new_page=:
+#+begin_src ruby
+  if  # {editor}
+    system  "sleep 1; # { editor }  # { file } "
+  end
+#+end_src
+The wise Xu Zhiqiang adds a statement to automatically open a new browser tab at =http://localhost:4000= when you =rake preview= your blog. Append this to the =preview= command in the Rakefile:
+#+begin_src ruby
+ system "sleep 2; open http://localhost:#{server_port}/"
+   [jekyllPid, compassPid, rackupPid].each { |pid| Process.wait(pid) }
+#+end_src
+Now you can run =rake new post["title"]= and an =.org= file is created
+in the =org_posts_dir= which then opens in Emacs. Once you finish
+editing it, just run =M-x save-then-publish= and close the frame with
+=C-x 5 0=. When you run =rake generate && rake preview=, a browser tab
+opens with your new post. Nice!
+* Final Workflow
+But still too cumbersome for me: I added two aliases and a function to
+my .zshrc to streamline this workflow for me:
+#+begin_src sh
+  # create new post with octopress and emacs
+  post() {
+      rake new_post\["$1"\]
+  }
+
+  alias preview="rake generate && rake preview"
+  alias deploy="rake deploy"
+#+end_src
+Now I just enter =post title= and Emacs pops up with a new post, ready
+for editing. Once I am done, I run =preview= and Chrome opens. When I
+am happy with the post, I simply =deploy= and I am done. Now this is
+the true Emacs way.
+* Seting up MathJax
+Finally I set up [[http://www.mathjax.org/][Mathjax]] for writing equations in otopress, because
+every true stats geek needs to write impressive equations.
+\[
+\prod \limits_{i=1}^{n+1}i = 1\cdot 2\cdot\dots\cdot n\cdot (n+1)
+\]
+
+I used the instructions from [[http://drz.ac/2013/01/03/blogging-with-math/][here]] and [[http://www.idryman.org/blog/2012/03/10/writing-math-equations-on-octopress/][here]]. First, install [[http://kramdown.rubyforge.org/][kramdown]]
+and use it instead of rdiscount, since it supports LaTeX out of the
+box:
+#+begin_src sh
+$ gem install kramdown
+#+end_src
+Now open =_config.yml= and change =rdiscount= to =kramdown=. Do the same in your
+=Gemfile=.
+Open up =./source/_includes/custom/head.html= and append
+#+begin_src html
+  <!--- MathJax Configuration -->
+  <script type="text/javascript"
+          src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,http://ronert-obst.com/javascripts/MathJaxLocal.js">
+  </script>
+#+end_src
+Of course chage =ronert-obst.com= to your url. Now place your custom Mathjax preferences in =source/javascript/=.
+I used the [[http://drz.ac/javascripts/MathJaxLocal.js][custom preferences]] from [[http://drz.ac/2013/01/03/blogging-with-math/][here]], they seem pretty good for my purposes. Note that you have to specify
+the path to your preferences in the =MathJaxLocal.js= file. There is a right-click bug with MathJax
+in Octopress. You can easily fix this by changing
+#+begin_src css
+  body {
+      > div {
+          background: $sidebar-bg $noise-bg;
+#+end_src
+to
+#+begin_src css
+  body {
+      > div#main {
+          background: $sidebar-bg $noise-bg;
+#+end_src
+in =sass/base/_theme.scss=. Now you are all set!

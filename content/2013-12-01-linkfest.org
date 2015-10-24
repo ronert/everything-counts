@@ -1,0 +1,36 @@
+#+TITLE: Weekend Linkfest 1.12.2013
+#+DATE: 2013-12-01
+#+CATEGORY: Linkfest
+* Statistics and Machine Learning
+- Awesome deep learning resource: [[http://deeplearning.net/#][Deep Learning]]
+- [[http://alex.smola.org/teaching/cmu2013-10-701x/index.html][Introduction to Machine Learning by Alex Smola and Geoffrey Gordon]]
+- [[http://markus.com/deep-learning-101/][Deep Learning 101]]
+- [[http://nbviewer.ipython.org/github/twiecki/pymc3_talk/blob/master/bayesian_pymc3.ipynb][Bayesian data analysis with PyMC3]]
+- [[http://blog.udacity.com/2013/11/sebastian-thrun-launching-our-data.html?m%3D1][Udacity Blog: Launching our Data Science & Big Data Track built with Leading Industry Partners]]
+- [[http://blog.revolutionanalytics.com/2013/11/what-data-science-can-learn-from-small-data-statistics.html][What Data Science can learn from small-data Statistics]]
+- [[http://www.cs.yale.edu/homes/mmahoney/talks/mahoney-graphlab13.pdf][Randomized Regression in Parallel and Distributed Environments]]
+- [[http://cm.dce.harvard.edu/2014/01/14328/publicationListing.shtml][Data Science at Harvard]]
+- [[http://atpassos.me/][NIPS 2013 reading list]]
+- [[http://nlp.stanford.edu/links/statnlp.html][Statistical NLP/corpus-based computational linguistics resources]]
+* R Package of the Week
+- [[https://github.com/rstudio/ggvis][ggvis]]
+* Paper(s) of the Week
+- [[http://research.microsoft.com/pubs/204048/APSIPA-Trans2013-revised-final.pdf][A nice deep learning survey paper]]
+- [[http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf][Survey paper on probabilistic topic models]]
+- [[http://jmlr.org/papers/v11/erhan10a.html][Why Does Unsupervised Pre-training Help Deep Learning?]]
+- [[http://jmlr.org/papers/v11/schaul10a.html][PyBrain]]
+- [[http://www.jstatsoft.org/v55/i14/paper][Scalable Strategies for Computing with Massive Data]]
+- [[http://research.google.com/pubs/pub41849.html][Bayes and Big Data: The Consensus Monte Carlo Algorithm]]
+- [[http://arxiv.org/pdf/1311.2901.pdf][Visualizing and Understanding Convolutional Neural Networks]]
+* Programming
+- [[http://stanford.edu/~mwaskom/software/seaborn/][Seaborn: statistical data visualization]]
+- [[http://continuum.io/blog/painless_streaming_plots_w_bokeh][Painless Streaming Plots with Bokeh]]
+- [[https://vimeo.com/79842691][Bokeh Workshop]]
+- [[http://c3js.org/?utm_content%3Dbuffer7270c&utm_source%3Dbuffer&utm_medium%3Dtwitter&utm_campaign%3DBuffer][C3.js - D3-based reusable chart library]]
+- [[https://deveo.tv/tutorials/d3js][D3.js Intro Tutorial Video Series]]
+- [[https://vimeo.com/79559271][Rapid Development and High Performance Text Processing]]
+- [[http://f3.tiera.ru/other/DVD-009/Alexandrescu_A._Modern_C%2B%2B_Design%5Bc%5D_Generic_Programming_and_Design_Patterns_Applied_(2001)(en)(271s).pdf][Modern C++ Design: Generic Programming and Design Patterns Applied]]
+- [[https://dataset.readthedocs.org/en/latest/][dataset: databases for lazy people]]
+- [[http://yahooeng.tumblr.com/post/65453012905/introducing-samoa-an-open-source-platform-for-mining?fb_action_ids%3D10152418904187519&fb_action_types%3Dog.likes&fb_source%3Dother_multiline&action_object_map%3D%255B177747575753201%255D&action_type_map%3D%255B%2522og.likes%2522%255D&action_ref_map%3D%255B%255D&utm_content%3Dbuffer31a9d&utm_source%3Dbuffer&utm_medium%3Dtwitter&utm_campaign%3DBuffer][Introducing SAMOA, an open source platform for mining big data streams. | Yahoo Engineering]]
+- [[http://tmp.devcharm.com/pages/python-modules-you-should-know][Python modules you should know]]
+- [[http://www.slideshare.net/jpatanooga/metronome-ml-confnov2013v20131113][MLConf 2013: Metronome and Parallel Iterative Algorithms on YARN]]
