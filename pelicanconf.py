@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+
 AUTHOR = 'Ronert Obst'
 SITENAME = 'Everything Counts'
 SITEURL = ''
@@ -13,6 +15,8 @@ TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = 'en'
 
 STATIC_PATHS = ['images', 'notebooks', 'code', 'downloads', 'figures', 'pdfs']
+
+MENUITEMS = [('Archives', '/archives.html')]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
