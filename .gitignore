@@ -1,2 +1,5 @@
 *.pyc
 output/
+themes/.DS_Store
+_nb_header.html
+.DS_Store
