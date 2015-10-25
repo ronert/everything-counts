@@ -39,8 +39,8 @@ DEFAULT_PAGINATION = 10
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
-	   'liquid_tags.include_code', 'liquid_tags.notebook',
-	   'liquid_tags.literal', 'render_math', "org_pandoc_reader"]
+           'liquid_tags.include_code', 'liquid_tags.notebook',
+           'liquid_tags.literal', 'render_math', "org_pandoc_reader"]
 
 THEME = 'themes/pelican-octopress-theme'
 
@@ -75,7 +75,7 @@ ORG_PANDOC_ARGS = ['--mathjax',
 if not os.path.exists('_nb_header.html'):
     import warnings
     warnings.warn("_nb_header.html not found.  "
-		  "Rerun make html to finalize build.")
+                  "Rerun make html to finalize build.")
 else:
     EXTRA_HEADER = open('_nb_header.html').read()
 
