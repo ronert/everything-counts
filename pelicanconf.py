@@ -38,12 +38,14 @@ AUTHOR_FEED_RSS = None
 DEFAULT_PAGINATION = 10
 
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ['liquid_tags', 'render_math', "org_pandoc_reader"]
+PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
+	   'liquid_tags.include_code', 'liquid_tags.notebook',
+	   'liquid_tags.literal', 'render_math', "org_pandoc_reader"]
 
 THEME = 'themes/pelican-octopress-theme'
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 # Sharing
 TWITTER_USER = 'ronert_obst'
