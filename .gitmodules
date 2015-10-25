@@ -1,3 +1,6 @@
 [submodule "plugins/org_pandoc_reader"]
 	path = plugins/org_pandoc_reader
 	url = git@github.com:jo-tham/org_pandoc_reader.git
+[submodule "themes/pelican-octopress-theme"]
+	path = themes/pelican-octopress-theme
+	url = git@github.com:ronert/pelican-octopress-theme.git
