@@ -10,6 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+
 SITEURL = 'http://everything-counts.cfapps.io'
 RELATIVE_URLS = False
 
@@ -20,5 +21,5 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
+DISQUS_SITENAME = 'everythingcounts'
 GOOGLE_ANALYTICS = 'UA-40781735-1'
