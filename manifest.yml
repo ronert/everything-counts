@@ -7,3 +7,4 @@ applications:
   timeout: 180
   env:
     PELICAN_SITEURL: "http://everything-counts.cfapps.io"
+  domain: ronert-obst.com
